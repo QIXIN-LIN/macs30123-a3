@@ -28,9 +28,9 @@ This bar chart illustrates the average tip amount for NYC taxi trips by the hour
 
 #### Visualization4: Average Tip Amount by Day of Week
 
-This bar chart shows the average tip amount received by NYC taxi drivers for each day of the week, highlighting a relatively consistent tipping pattern across the days with slight variations. Interestingly, the visualization indicates that people tend to tip slightly less during the weekend compared to weekdays.
-
 ![output5](Visualizations/output5.png)
+
+This bar chart shows the average tip amount received by NYC taxi drivers for each day of the week, highlighting a relatively consistent tipping pattern across the days with slight variations. Interestingly, the visualization indicates that people tend to tip slightly less during the weekend compared to weekdays.
 
 #### Visualization5: Average Tip Amount by Passenger Count
 
