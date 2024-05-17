@@ -14,17 +14,19 @@
 
 ### (ab)
 
-+ Step1 Jupyter notebook - run locally to set up Spark EMR cluster: [Q23-Step1.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step1.ipynb)
++ Jupyter notebook for Step1 - run locally to set up Spark EMR cluster: [Q23-Step1.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step1.ipynb)
 
-+ Step2 Jupyter notebook - run on Spark EMR cluster: [Q23-Step2.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step2.ipynb)
++ Jupyter notebook for Step2 - run on Spark EMR cluster: [Q23-Step2.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step2.ipynb)
 
-### (b)
+### (c)
 
 When specifying a series of transformations in a Spark pipeline, the DataFrame is not immediately processed. Instead, Spark uses lazy evaluation to build a logical plan outlining the transformations. This plan is optimized but not executed until an action like fit, transform, or collect is called. Upon triggering an action, Spark's Catalyst optimizer converts the logical plan into a physical plan, which is then executed across the cluster.
 
 This approach allows Spark to optimize the execution plan, ensuring efficient resource use. In contrast, Dask also employs lazy evaluation, building a task graph that is executed only when compute is called. Both systems delay execution for optimization, but Spark uses Catalyst for query optimization, while Dask relies on its task scheduler.
 
 ## 3. Finding Optimal Model Parameters
+
+### Notebook with Code
 
 + Jupyter notebook - based on pipeline create in Q2 and need to be run on Spark EMR cluster: [Q23-Step2.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step2.ipynb)
 
