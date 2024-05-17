@@ -48,9 +48,22 @@ The majority of trips are concentrated in the shorter range, particularly under 
 
 ### (ab)
 
+### Notebook with Code
+
 + Jupyter notebook for Step1 - run locally to set up Spark EMR cluster: [Q23-Step1.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step1.ipynb)
 
 + Jupyter notebook for Step2 - run on Spark EMR cluster: [Q23-Step2.ipynb](https://github.com/macs30123-s24/a3-QIXIN-ACT/blob/main/Q23-Step2.ipynb)
+
+### Additional Feature Description
+
++ Feature1 - Weekend: This is the feature in the existing linear regression model.
++ Feature2 - Hour of Day (date/time feature, one-hot encoded): Add "Hour of Day" to the model because we observed in Q1's visualization that it influences the tip amount. Specifically, people tend to tip more around 5am and 7pm.
++ Feature3 - Day of Week (categorical feature, one-hot encoded): Add "Day of Week" to the model because we observed in Q1's visualization that it influences the tip amount. Specifically, people tip more during the weekdays.
++ Feature4 - Passenger Count (integer feature, bucketized and one-hot encoded): Add "Passenger Count" to the model because we observed in Q1's visualization that it influences the tip amount. Specifically, larger groups of people (more than 6) tend to tip more significantly. However, note that this is a driver-entered value, and there are many entries with 0, possibly because drivers don't always bother to enter the passenger count.
++ Feature5 - Borough to Pickup (spatial feature, one-hot encoded): Add "Borough to Pickup" in the model to reflect the potential variability in tipping habits or travel purposes among passengers originating from different boroughs, which could impact the tip amount.
++ Feature6 - Trip Distance (floating point feature): Add "Trip Distance" to the model because people might give more tips on long-distance trips due to increased fare amounts or longer travel times.
++ Feature7 - Fare Amount (floating point feature): Add "Fare Amount" to the model because people might give more tips when the fare amount is higher.
+
 
 ### (c)
 
