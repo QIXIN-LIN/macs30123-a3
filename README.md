@@ -8,7 +8,41 @@
 
 ### Visualizations with Descriptions
 
+#### Visualization1: Histogram of Tip Amounts
 
+![output2](Visualizations/output2.png)
+
+This histogram displays the distribution of tip amounts for NYC taxi trips. The majority of trips have a tip amount of zero, with a noticeable drop-off as the tip amount increases. The significant frequency of zero tips and the general trend toward lower tip amounts suggest that many passengers do not tip, and those who do typically leave modest tips.
+
+#### Visualization2: Scatter plot of Trip Distance vs. Tip Amount
+
+![output3](Visualizations/output3.png)
+
+This scatter plot provides a detailed visualization of the relationship between trip distance and tip amount, revealing a dense cluster of trips under 20 miles with tips generally below $40. Notably, the plot shows a decline in higher tip amounts as trip distance increases, indicating that longer trips may not necessarily result in proportionally higher tips, which could be influenced by factors such as fare structure or passenger expectations.
+
+#### Visualization3: Average Tip Amount by Hour of Pickup
+
+![output4](Visualizations/output4.png)
+
+This bar chart illustrates the average tip amount for NYC taxi trips by the hour of pickup. The data reveals that tips tend to be higher during early morning hours (around 5-6 AM) and late evening hours (around 7-8 PM). This pattern may be influenced by different passenger behaviors and trip purposes at these times, such as airport trips or evening outings, which could be important factors for predicting tip amounts.
+
+#### Visualization4: Average Tip Amount by Day of Week
+
+This bar chart shows the average tip amount received by NYC taxi drivers for each day of the week, highlighting a relatively consistent tipping pattern across the days with slight variations. Interestingly, the visualization indicates that people tend to tip slightly less during the weekend compared to weekdays.
+
+![output5](Visualizations/output5.png)
+
+#### Visualization5: Average Tip Amount by Passenger Count
+
+![output6](Visualizations/output6.png)
+
+This bar chart illustrates the average tip amount for NYC taxi trips based on the number of passengers. The data shows that trips with higher passenger counts, particularly those with 7 or more passengers, tend to receive significantly higher tips. This pattern suggests that larger groups are more likely to tip generously, which could be due to shared payment dynamics or group influence.
+
+#### Visualization6: Histogram of Trip Distances
+
+![output7](Visualizations/output7.png)
+
+The majority of trips are concentrated in the shorter range, particularly under 10 miles, with the frequency sharply decreasing for longer distances. The log scale helps to illustrate the vast difference in the number of short versus long trips, highlighting the rarity of trips over 30 miles within the dataset - short trips are far more common than longer ones in the urban setting of New York City.
 
 ## 2. Implementing a Reproducible Machine Learning Pipeline
 
